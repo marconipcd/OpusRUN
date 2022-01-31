@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="OpusBloqueio" transaction-type="RESOURCE_LOCAL">
+		<class>domain.ContasReceber</class>
+		<class>domain.ComoNosConheceu</class>
+		<class>domain.Concentrador</class>
+		<class>domain.ContratosAcesso</class>
+		<class>domain.AcessoCliente</class>
+		<class>domain.RadReply</class>
+		<class>domain.NfeMestre</class>
+		<class>domain.Cfop</class>
+		<class>domain.PlanoAcesso</class>
+		<class>domain.Cliente</class>
+		<class>domain.Haver</class>
+		<class>domain.HaverDetalhe</class>
+		<class>domain.ConfigNfe</class>
+		<class>domain.Empresa</class>
+		<class>domain.ContaBancaria</class>
+		<class>domain.ControleTitulo</class>
+		<class>domain.ParametrosBoleto</class>
+		<class>domain.Endereco</class>
+		<class>domain.ConfigBoleto</class>
+		<class>domain.Setores</class>
+		<class>domain.Crm</class>
+		<class>domain.CrmAssunto</class>
+		<class>domain.CrmFormasContato</class>
+		<class>domain.Ose</class>
+		<class>domain.GrupoOse</class>
+		<class>domain.Osi</class>
+		<class>domain.SubGrupoOse</class>
+		<class>domain.TipoSubGrupoOse</class>
+		<class>domain.Veiculos</class>
+		<class>domain.AlteracoesContasReceber</class>
+		<class>domain.AgendaRenovacoes</class>
+		<class>domain.AgendamentoBloqueioDesbloqueio</class>
+		<class>domain.AlterarcoesContrato</class>
+		<class>domain.Usuario</class>
+		<class>domain.LogAcoes</class>
+		<class>domain.Produto</class>
+		<class>domain.EcfPreVendaCabecalho</class>
+		<class>domain.EcfPreVendaDetalhe</class>
+		<class>domain.NaturezaOperacao</class>
+		<class>domain.MovimentoEntCabecalho</class>
+		<class>domain.MovimentoEntDetalhe</class>
+		<class>domain.Fornecedor</class>
+		<class>domain.Swith</class>
+		<class>domain.EmpresaUsuario</class>
+		<class>domain.ModuloUsuario</class>
+		<class>domain.SubmoduloUsuario</class>
+		<class>domain.Permissoes</class>
+		<class>domain.InfoBoletoDiario</class>
+		<class>domain.Pix</class>
+		<class>domain.CreditoCliente</class>
+		<class>domain.CrmPerguntasRel</class>
+		<class>domain.RadUserGroup</class>
+		<class>domain.SeriaisProduto</class>
+		<class>domain.ArquivosContrato</class>
+		<class>domain.ArquivosContrato2</class>
+		
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+			<property name="hibernate.default_catalog" value="db_opus"/>
+
+			<!-- 179.127.32.11 -->
+			<property name="hibernate.connection.url" value="jdbc:mysql://172.17.0.11/db_opus"/>
+			<property name="hibernate.connection.username" value="root"/>
+			<property name="hibernate.connection.password" value="managerdigi_1q2w3e4r5t"/>
+		
+		</properties>
+	</persistence-unit>
+</persistence>

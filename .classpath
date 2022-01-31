@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=OpusBloqueio&amp;ivyXmlPath=ivy.xml&amp;confs=*"/>
+	<classpathentry kind="lib" path="/OpusERP/WebContent/WEB-INF/lib/joda-time-2.2.jar"/>
+	<classpathentry kind="lib" path="/OpusERP/WebContent/WEB-INF/lib/m4j.jar"/>
+	<classpathentry kind="lib" path="xmlworker-5.4.3.jar"/>
+	<classpathentry kind="lib" path="commons-csv-1.0-20140507.222118-276.jar"/>
+	<classpathentry kind="lib" path="commons-validator-1.4.0.jar"/>
+	<classpathentry kind="lib" path="json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jersey-client-2.25.jar"/>
+	<classpathentry kind="lib" path="jersey-media-json-jackson-2.25.jar"/>
+	<classpathentry kind="lib" path="jersey-common-2.25.jar"/>
+	<classpathentry kind="lib" path="hk2-core-2.4.0.jar"/>
+	<classpathentry kind="lib" path="hk2-api-2.4.0.jar"/>
+	<classpathentry kind="lib" path="hk2-utils-2.4.0.jar"/>
+	<classpathentry kind="lib" path="gf.hk2-locator-2.2.0.jar"/>
+	<classpathentry kind="lib" path="jersey-guava-2.25.jar"/>
+	<classpathentry kind="lib" path="javax.inject-1.jar"/>
+	<classpathentry kind="lib" path="jersey-media-json-jackson-2.8.jar"/>
+	<classpathentry kind="lib" path="jersey-client-2.8.jar"/>
+	<classpathentry kind="lib" path="gn-api-sdk-java-0.2.5.jar"/>
+	<classpathentry kind="lib" path="mikrotik-3.0.5.jar"/>
+	<classpathentry kind="lib" path="mikrotik-1.1.6.jar"/>
+	<classpathentry kind="lib" path="commons-net-3.8.0.jar"/>
+	<classpathentry kind="lib" path="okhttp-3.9.0.jar"/>
+	<classpathentry kind="lib" path="okio-1.13.0.jar"/>
+	<classpathentry kind="lib" path="ganymed-ssh2-build210.jar"/>
+	<classpathentry kind="con" path="org.apache.ivyde.eclipse.cpcontainer.IVYDE_CONTAINER/?project=OpusRUN&amp;ivyXmlPath=ivy.xml&amp;confs=*"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
